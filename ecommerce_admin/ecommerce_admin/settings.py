@@ -30,14 +30,11 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-]
+INSTALLED_APPS = [ 'django.contrib.admin', 'django.contrib.auth', 
+    'django.contrib.contenttypes', 'django.contrib.sessions', 
+    'django.contrib.messages', 'django.contrib.staticfiles',# custom 
+    installed apps
+'rest_framework', 'dashboard',]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
